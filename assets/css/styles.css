@@ -1475,6 +1475,12 @@ body.has-motion .table-shell.is-visible .compare-table tbody tr {
     gap: 20px;
 }
 
+.gallery-cta {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
 .gallery-card {
     position: relative;
     min-height: 380px;
