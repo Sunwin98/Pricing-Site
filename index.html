@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#040805" />
+    <title>แค็ตตาล็อกราคา | เกรียงไกร การช่าง</title>
+    <meta
+        name="description"
+        content="เว็บแหล่งรวมข้อมูลราคาและข้อมูลเบื้องต้นสำหรับงานสร้างบ้าน ต่อเติม รีโนเวท และงานทั่วไป ออกแบบให้อ่านเหมือนเอกสารราคาในรูปแบบเว็บที่ทันสมัย"
+    />
+    <link rel="icon" href="assets/images/brand/logo.jpg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=IBM+Plex+Sans+Thai:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+    <a class="skip-link" href="#main">ข้ามไปยังเนื้อหา</a>
+
+    <div class="page-shell">
+        <header class="topbar" id="top">
+            <div class="container topbar__inner">
+                <a class="brand" href="#top" aria-label="กลับด้านบนของแค็ตตาล็อกราคา">
+                    <img src="assets/images/brand/logo.jpg" alt="โลโก้เกรียงไกร การช่าง" class="brand__logo" />
+                    <span class="brand__text">
+                        <strong>เกรียงไกร การช่าง</strong>
+                        <span>Price Catalog For Customer</span>
+                    </span>
+                </a>
+
+                <nav class="topnav" aria-label="เมนูแค็ตตาล็อกราคา">
+                    <a href="#selector">ราคาเบื้องต้น</a>
+                    <a href="#steps">วิธีอ่าน</a>
+                    <a href="#compare">เปรียบเทียบราคา</a>
+                    <a href="#gallery">ตัวอย่างงาน</a>
+                    <a href="#notes">หมายเหตุ</a>
+                    <a href="#contact">ติดต่อ</a>
+                </nav>
+
+                <a class="button button--ghost button--small topnav-cta" href="#contact">สอบถามเพิ่มเติม</a>
+
+                <button class="hamburger" id="hamburger" aria-label="เปิดเมนู" aria-expanded="false" aria-controls="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+            <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+                <nav class="mobile-nav" aria-label="เมนูมือถือ">
+                    <a href="#selector">ราคาเบื้องต้น</a>
+                    <a href="#steps">วิธีอ่าน</a>
+                    <a href="#compare">เปรียบเทียบราคา</a>
+                    <a href="#gallery">ตัวอย่างงาน</a>
+                    <a href="#notes">หมายเหตุ</a>
+                    <a href="#contact">ติดต่อ</a>
+                </nav>
+            </div>
+        </header>
+
+        <main id="main">
+            <section class="section selector selector--first" id="selector" data-section>
+                <div class="container">
+                    <div class="section-heading reveal">
+                        <p class="eyebrow">ราคาเบื้องต้น</p>
+                        <h2>แหล่งรวมข้อมูลราคาในรูปแบบเอกสารเว็บ</h2>
+                        <p>
+                            หน้านี้ออกแบบให้ทำหน้าที่เหมือนเอกสารราคา แต่ดูง่ายกว่าเดิมบนมือถือและเดสก์ท็อป
+                            ลูกค้าสามารถเลื่อนดูภาพรวมราคา ช่วงราคา และประเภทงานที่เหมาะกับตัวเองได้ในหน้าเดียว
+                        </p>
+                    </div>
+
+                    <div class="factor-grid reveal" style="--delay: 0.02s;" aria-label="ปัจจัยที่มีผลต่อราคา">
+                        <article class="factor-card">
+                            <span>ตัวแปรหลัก</span>
+                            <strong>ขนาดพื้นที่รวม</strong>
+                            <p>พื้นที่ใช้สอยและความซับซ้อนของรูปทรงอาคารมีผลกับราคามากที่สุด</p>
+                        </article>
+                        <article class="factor-card">
+                            <span>ตัวแปรหลัก</span>
+                            <strong>สเปกวัสดุ</strong>
+                            <p>เกรดวัสดุ งานพื้น ผนัง หลังคา และงานตกแต่งจะดันช่วงราคาให้ต่างกัน</p>
+                        </article>
+                        <article class="factor-card">
+                            <span>ตัวแปรหลัก</span>
+                            <strong>งานระบบ</strong>
+                            <p>ไฟฟ้า ประปา สุขาภิบาล หรือระบบเสริมอื่น ๆ ล้วนเพิ่มงบประมาณโดยตรง</p>
+                        </article>
+                        <article class="factor-card">
+                            <span>ตัวแปรหลัก</span>
+                            <strong>สภาพหน้างาน</strong>
+                            <p>การเข้าพื้นที่ ระดับดิน งานรื้อถอน และเงื่อนไขหน้างานจริงส่งผลต่อราคาสุดท้าย</p>
+                        </article>
+                    </div>
+
+                    <div class="selector-group reveal" style="--delay: 0.05s;">
+                        <div class="selector-group__header">
+                            <p class="selector-group__eyebrow">หมวดสร้างบ้าน</p>
+                            <h3>ราคา 14,000 - 20,000 บาท/ตร.ม.</h3>
+                        </div>
+                        <div class="choice-grid">
+                            <article class="choice-card">
+                                <img src="assets/images/build/modern-house.jpg" alt="บ้านทรงโมเดิร์น" loading="lazy" />
+                                <div class="choice-card__body">
+                                    <div class="choice-card__topline">
+                                        <span class="category-pill">สร้างบ้าน</span>
+                                    </div>
+                                    <h4>บ้านทรงโมเดิร์น</h4>
+                                    <p>เหมาะกับลูกค้าที่อยากเริ่มสร้างบ้านใหม่และต้องการเทียบงบจากแบบบ้านร่วมสมัย</p>
+                                    <div class="price-chip">14,000 - 18,000 บาท/ตร.ม.</div>
+                                </div>
+                            </article>
+                            <article class="choice-card">
+                                <img src="assets/images/build/hip-roof-house.jpg" alt="บ้านทรงปั้นหยา" loading="lazy" />
+                                <div class="choice-card__body">
+                                    <div class="choice-card__topline">
+                                        <span class="category-pill">สร้างบ้าน</span>
+                                    </div>
+                                    <h4>บ้านทรงปั้นหยา</h4>
+                                    <p>เหมาะกับลูกค้าที่ต้องการบ้านใหม่พร้อมภาพลักษณ์เรียบร้อยและอยากคุยงบคู่กับสเปกวัสดุ</p>
+                                    <div class="price-chip">15,000 - 20,000 บาท/ตร.ม.</div>
+                                </div>
+                            </article>
+                            <article class="choice-card">
+                                <img src="assets/images/build/nordic-house.jpg" alt="บ้านทรงหน้าจั่วและนอร์ดิก" loading="lazy" />
+                                <div class="choice-card__body">
+                                    <div class="choice-card__topline">
+                                        <span class="category-pill">สร้างบ้าน</span>
+                                    </div>
+                                    <h4>บ้านทรงหน้าจั่ว / นอร์ดิก</h4>
+                                    <p>เหมาะกับลูกค้าที่ต้องการแบบบ้านคาแรกเตอร์ชัด และต้องการวางงบจากสไตล์บ้านก่อน</p>
+                                    <div class="price-chip">15,000 - 18,000 บาท/ตร.ม.</div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="selector-group reveal" style="--delay: 0.12s;">
+                        <div class="selector-group__header">
+                            <p class="selector-group__eyebrow">หมวดต่อเติมและรีโนเวท</p>
+                            <h3>ราคา 8,000 - 18,000 บาท/ตร.ม.</h3>
+                        </div>
+                        <div class="choice-grid">
+                            <article class="choice-card">
+                                <img src="assets/images/renovate/kitchen-extension.jpg" alt="ต่อเติมห้องครัว" loading="lazy" />
+                                <div class="choice-card__body">
+                                    <div class="choice-card__topline">
+                                        <span class="category-pill">ต่อเติม</span>
+                                    </div>
+                                    <h4>ต่อเติมห้องครัว</h4>
+                                    <p>เหมาะกับบ้านที่ต้องการเพิ่มพื้นที่ทำครัวหรือปรับครัวเดิมให้ใช้งานง่ายขึ้นในทุกวัน</p>
+                                    <div class="price-chip">13,000 - 15,000 บาท/ตร.ม.</div>
+                                </div>
+                            </article>
+                            <article class="choice-card">
+                                <img src="assets/images/renovate/full-renovation.jpg" alt="รีโนเวทบ้านทั้งหลัง" loading="lazy" />
+                                <div class="choice-card__body">
+                                    <div class="choice-card__topline">
+                                        <span class="category-pill">รีโนเวท</span>
+                                    </div>
+                                    <h4>รีโนเวทบ้านทั้งหลัง</h4>
+                                    <p>เหมาะกับลูกค้าที่ต้องการปรับบ้านเดิมทั้งภาพรวม และอยากเริ่มประเมินงบจากช่วงราคาเบื้องต้น</p>
+                                    <div class="price-chip">10,000 - 18,000 บาท/ตร.ม.</div>
+                                </div>
+                            </article>
+                            <article class="choice-card">
+                                <img src="assets/images/renovate/carport-canopy.jpg" alt="โรงจอดรถและหลังคากันสาด" loading="lazy" />
+                                <div class="choice-card__body">
+                                    <div class="choice-card__topline">
+                                        <span class="category-pill">ต่อเติม</span>
+                                    </div>
+                                    <h4>โรงจอดรถ / หลังคากันสาด</h4>
+                                    <p>เหมาะกับลูกค้าที่อยากเริ่มจากงานขยายพื้นที่เฉพาะจุดและคุมงบได้ง่ายกว่างานรีโนเวททั้งหลัง</p>
+                                    <div class="price-chip">8,000 - 11,000 บาท/ตร.ม.</div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="selector-group reveal" style="--delay: 0.19s;">
+                        <div class="selector-group__header">
+                            <p class="selector-group__eyebrow">หมวดงานทั่วไป</p>
+                            <h3>มีทั้งราคาเริ่มต้นและงานที่ต้องสอบถามราคา</h3>
+                        </div>
+                        <div class="choice-grid">
+                            <article class="choice-card">
+                                <img src="assets/images/general/concrete-floor.jpg" alt="เทพื้นลานจอดรถขนาดใหญ่" loading="lazy" />
+                                <div class="choice-card__body">
+                                    <div class="choice-card__topline">
+                                        <span class="category-pill">งานทั่วไป</span>
+                                    </div>
+                                    <h4>เทพื้นลานจอดรถขนาดใหญ่</h4>
+                                    <p>เหมาะกับบ้าน อาคาร หรือโรงงานที่ต้องการเริ่มจากงานพื้นซึ่งประเมินงบได้ค่อนข้างเร็ว</p>
+                                    <div class="price-chip">เริ่มต้น 500 บาท/ตร.ม.</div>
+                                </div>
+                            </article>
+                            <article class="choice-card">
+                                <img src="assets/images/general/swimming-pool.jpg" alt="งานสระว่ายน้ำ" loading="lazy" />
+                                <div class="choice-card__body">
+                                    <div class="choice-card__topline">
+                                        <span class="category-pill">งานทั่วไป</span>
+                                    </div>
+                                    <h4>งานสระว่ายน้ำ</h4>
+                                    <p>เหมาะกับลูกค้าที่ต้องการประเมินงบแบบก้อนเดียวสำหรับงานสระว่ายน้ำและงานระบบพื้นฐาน</p>
+                                    <div class="price-chip">เริ่มต้น 350,000 บาท</div>
+                                </div>
+                            </article>
+                            <article class="choice-card choice-card--ask">
+                                <img src="assets/images/general/tool-review.jpg" alt="รีวิวอุปกรณ์งานช่าง" loading="lazy" />
+                                <div class="choice-card__body">
+                                    <div class="choice-card__topline">
+                                        <span class="category-pill category-pill--warn">สอบถามราคา</span>
+                                    </div>
+                                    <h4>รีวิวอุปกรณ์งานช่าง</h4>
+                                    <p>เหมาะกับงานรีวิวที่ต้องคุยขอบเขตแคมเปญ ช่องทางเผยแพร่ และรูปแบบคอนเทนต์ก่อนตั้งราคา</p>
+                                    <div class="price-chip price-chip--warn">สอบถามราคา</div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="hero section hero--support">
+                <div class="container hero__grid">
+                    <div class="hero__copy reveal">
+                        <p class="eyebrow">คู่มือใช้งานเอกสารราคา</p>
+                        <h1>เปิดอ่านเหมือนเอกสารราคา แต่ใช้งานง่ายกว่าในหน้าเว็บ</h1>
+                        <p class="hero__lead">
+                            ส่วนบนสุดของหน้าเป็นภาพรวมราคาแบบดูเร็ว ส่วนถัดลงมาเป็นคู่มือ ตารางเปรียบเทียบ และตัวอย่างงานจริง
+                            เพื่อช่วยให้ลูกค้าอ่านข้อมูลได้ครบก่อนตัดสินใจติดต่อสอบถามเพิ่มเติม
+                        </p>
+
+                        <div class="hero__actions">
+                            <a class="button button--primary" href="#compare">ดูตารางเปรียบเทียบ</a>
+                            <a class="button button--secondary" href="#process">ดูขั้นตอนประเมินงาน</a>
+                        </div>
+
+                        <div class="hero__microcopy">
+                            <span>อ่านง่ายบนมือถือ</span>
+                            <span>เห็นภาพจริงประกอบราคา</span>
+                            <span>มีข้อมูลติดต่อครบ</span>
+                        </div>
+                    </div>
+
+                    <aside class="hero__panel reveal" style="--delay: 0.12s;" aria-label="สรุปวิธีอ่านเอกสารราคา">
+                        <p class="eyebrow">อ่านอย่างไรให้เร็ว</p>
+                        <div class="step-stack">
+                            <article class="step-chip">
+                                <span>01</span>
+                                <div>
+                                    <strong>เริ่มจากหมวดงาน</strong>
+                                    <p>ดูว่าต้องการสร้างบ้าน ต่อเติม รีโนเวท หรือ งานทั่วไปก่อนเป็นอันดับแรก</p>
+                                </div>
+                            </article>
+                            <article class="step-chip">
+                                <span>02</span>
+                                <div>
+                                    <strong>ดูช่วงราคาอ้างอิง</strong>
+                                    <p>เทียบว่าช่วงราคาของแต่ละงานอยู่ประมาณไหน เพื่อใช้คัดกรองงบเบื้องต้น</p>
+                                </div>
+                            </article>
+                            <article class="step-chip">
+                                <span>03</span>
+                                <div>
+                                    <strong>ค่อยดูตารางและหมายเหตุ</strong>
+                                    <p>ถ้าต้องการอ่านละเอียดขึ้น ให้เลื่อนลงไปดูตารางเปรียบเทียบและข้อควรรู้ก่อนติดต่อ</p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="pulse-note">
+                            <strong>โครงหน้าถูกจัดให้เหมือนเอกสารข้อมูล</strong>
+                            <p>เปิดมาเห็นราคาเร็วก่อน แล้วค่อยอ่านรายละเอียดประกอบในส่วนล่างของหน้า</p>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+
+            <section class="section" id="steps" data-section>
+                <div class="container">
+                    <div class="section-heading reveal">
+                        <p class="eyebrow">วิธีอ่าน</p>
+                        <h2>หน้าเว็บนี้ทำหน้าที่เป็นแหล่งรวมข้อมูลราคา</h2>
+                        <p>
+                            จุดประสงค์คือช่วยให้ลูกค้าอ่านภาพรวมราคาและเข้าใจแนวทางงานได้เองก่อนติดต่อทีมงาน
+                            โดยโฟกัสที่การสรุปข้อมูลราคาให้อ่านง่ายเหมือนเอกสารประกอบการตัดสินใจ
+                        </p>
+                    </div>
+
+                    <div class="steps-grid">
+                        <article class="info-card reveal" style="--delay: 0.05s;">
+                            <span class="info-card__number">1</span>
+                            <h3>ดูภาพรวมจากช่วงราคา</h3>
+                            <p>เริ่มจากส่วนราคาเบื้องต้นด้านบนเพื่อดูว่าหมวดงานไหนใกล้กับงบที่ตั้งไว้มากที่สุด</p>
+                        </article>
+                        <article class="info-card reveal" style="--delay: 0.12s;">
+                            <span class="info-card__number">2</span>
+                            <h3>อ่านคำอธิบายของแต่ละงาน</h3>
+                            <p>การ์ดแต่ละใบช่วยอธิบายว่างานนั้นเหมาะกับงานลักษณะใด เพื่อให้ตัดสินใจได้ง่ายขึ้น</p>
+                        </article>
+                        <article class="info-card reveal" style="--delay: 0.19s;">
+                            <span class="info-card__number">3</span>
+                            <h3>ใช้หมายเหตุประกอบการตัดสินใจ</h3>
+                            <p>ส่วนหมายเหตุและการติดต่อจะช่วยให้เข้าใจว่าราคาใดเป็นราคาอ้างอิง และควรเตรียมข้อมูลอะไรเมื่อพร้อมคุยต่อ</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section process" id="process">
+                <div class="container">
+                    <div class="section-heading reveal">
+                        <p class="eyebrow">ขั้นตอนทำงาน</p>
+                        <h2>หลังจากดูราคาแล้ว กระบวนการจะเดินต่ออย่างไร</h2>
+                        <p>เมื่อเลือกช่วงราคาที่ใกล้กับงบประมาณได้แล้ว ขั้นตอนต่อไปคือการเก็บข้อมูลหน้างานและสรุปรายละเอียด เพื่อให้ทีมงานประเมินได้ใกล้เคียงความจริงมากขึ้น</p>
+                    </div>
+
+                    <div class="process-grid">
+                        <article class="process-card reveal" style="--delay: 0.05s;">
+                            <div class="process-card__top">
+                                <span class="process-card__step">01</span>
+                                <span class="process-card__time">เริ่มได้ทันที</span>
+                            </div>
+                            <h3>ส่งข้อมูลเบื้องต้น</h3>
+                            <p>แจ้งประเภทงาน ขนาดพื้นที่คร่าว ๆ และรูปหน้างานหรือแบบที่มี เพื่อให้ทีมงานเห็นภาพรวมก่อน</p>
+                        </article>
+                        <article class="process-card reveal" style="--delay: 0.1s;">
+                            <div class="process-card__top">
+                                <span class="process-card__step">02</span>
+                                <span class="process-card__time">ประมาณ 1 - 3 วัน</span>
+                            </div>
+                            <h3>คัดกรองและนัดดูหน้างาน</h3>
+                            <p>ทีมงานจะดูข้อมูลเบื้องต้นและนัดหมายเพิ่มเติมหากงานมีรายละเอียดที่ต้องเห็นหน้างานจริง</p>
+                        </article>
+                        <article class="process-card reveal" style="--delay: 0.15s;">
+                            <div class="process-card__top">
+                                <span class="process-card__step">03</span>
+                                <span class="process-card__time">หลังได้ข้อมูลครบ</span>
+                            </div>
+                            <h3>สรุปสเปกและช่วงงบ</h3>
+                            <p>กำหนดขอบเขตงาน วัสดุ และเงื่อนไขสำคัญ เพื่อแปลงจากราคาอ้างอิงไปสู่ราคาที่ใกล้หน้างานจริง</p>
+                        </article>
+                        <article class="process-card reveal" style="--delay: 0.2s;">
+                            <div class="process-card__top">
+                                <span class="process-card__step">04</span>
+                                <span class="process-card__time">ก่อนเริ่มงาน</span>
+                            </div>
+                            <h3>จัดทำใบเสนอราคา</h3>
+                            <p>เมื่อขอบเขตงานชัดเจน จะเข้าสู่ขั้นตอนเสนอราคาอย่างเป็นทางการพร้อมรายละเอียดที่ใช้ตัดสินใจได้จริง</p>
+                        </article>
+                        <article class="process-card reveal" style="--delay: 0.25s;">
+                            <div class="process-card__top">
+                                <span class="process-card__step">05</span>
+                                <span class="process-card__time">ตามคิวงาน</span>
+                            </div>
+                            <h3>เตรียมงานและเริ่มก่อสร้าง</h3>
+                            <p>หลังอนุมัติงบและแผนงานแล้ว ทีมงานจะเข้าสู่การเตรียมพื้นที่ วัสดุ และกำหนดวันเริ่มงาน</p>
+                        </article>
+                        <article class="process-card reveal" style="--delay: 0.3s;">
+                            <div class="process-card__top">
+                                <span class="process-card__step">06</span>
+                                <span class="process-card__time">ก่อนส่งมอบ</span>
+                            </div>
+                            <h3>ตรวจรับและส่งมอบงาน</h3>
+                            <p>ตรวจคุณภาพงานตามที่ตกลงไว้ และสรุปส่งมอบเมื่อรายละเอียดครบตามขอบเขตงานที่อนุมัติ</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section comparison" id="compare" data-section>
+                <div class="container">
+                    <div class="section-heading reveal">
+                        <p class="eyebrow">เปรียบเทียบราคา</p>
+                        <h2>สรุปหมวดงาน ราคา และความเหมาะสมในตารางเดียว</h2>
+                        <p>ตารางนี้เหมาะสำหรับใช้เป็นภาพรวมแบบอ่านเร็ว โดยยังเห็นประเภทงานและช่วงราคาอ้างอิงครบในหน้าจอเดียว</p>
+                    </div>
+
+                    <div class="table-shell reveal" style="--delay: 0.08s;">
+                        <table class="compare-table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">หมวดงาน</th>
+                                    <th scope="col">รายการ</th>
+                                    <th scope="col">ราคาอ้างอิง</th>
+                                    <th scope="col">เหมาะสำหรับ</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">สร้างบ้าน</th>
+                                    <td>บ้านทรงโมเดิร์น</td>
+                                    <td>14,000 - 18,000 บาท/ตร.ม.</td>
+                                    <td>เริ่มสร้างบ้านใหม่และอยากคุยงบจากแบบร่วมสมัย</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">สร้างบ้าน</th>
+                                    <td>บ้านทรงปั้นหยา</td>
+                                    <td>15,000 - 20,000 บาท/ตร.ม.</td>
+                                    <td>เน้นบ้านใหม่ภาพลักษณ์เรียบร้อยและคุมสเปกวัสดุ</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">สร้างบ้าน</th>
+                                    <td>บ้านทรงหน้าจั่ว / นอร์ดิก</td>
+                                    <td>15,000 - 18,000 บาท/ตร.ม.</td>
+                                    <td>ต้องการแบบบ้านคาแรกเตอร์ชัด</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">ต่อเติม / รีโนเวท</th>
+                                    <td>ต่อเติมห้องครัว</td>
+                                    <td>13,000 - 15,000 บาท/ตร.ม.</td>
+                                    <td>เพิ่มพื้นที่ครัวหรือปรับครัวเดิมให้ใช้งานจริงดีขึ้น</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">ต่อเติม / รีโนเวท</th>
+                                    <td>รีโนเวทบ้านทั้งหลัง</td>
+                                    <td>10,000 - 18,000 บาท/ตร.ม.</td>
+                                    <td>ปรับบ้านเดิมทั้งภาพรวม</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">ต่อเติม / รีโนเวท</th>
+                                    <td>โรงจอดรถ / หลังคากันสาด</td>
+                                    <td>8,000 - 11,000 บาท/ตร.ม.</td>
+                                    <td>เริ่มจากงานเฉพาะจุดและคุมงบง่าย</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">งานทั่วไป</th>
+                                    <td>เทพื้นลานจอดรถขนาดใหญ่</td>
+                                    <td>เริ่มต้น 500 บาท/ตร.ม.</td>
+                                    <td>งานพื้นสำหรับบ้าน อาคาร หรือโรงงาน</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">งานทั่วไป</th>
+                                    <td>งานสระว่ายน้ำ</td>
+                                    <td>เริ่มต้น 350,000 บาท</td>
+                                    <td>งานสระพร้อมระบบเบื้องต้น</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">งานทั่วไป</th>
+                                    <td>รีวิวอุปกรณ์งานช่าง</td>
+                                    <td>สอบถามราคา</td>
+                                    <td>งานรีวิวที่ต้องคุยขอบเขตแคมเปญก่อน</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section breakdown" id="breakdown" data-section>
+                <div class="container">
+                    <div class="section-heading reveal">
+                        <p class="eyebrow">ขอบเขตงานและระยะเวลา</p>
+                        <h2>งานแต่ละประเภทรวมอะไร และใช้เวลาประมาณนานแค่ไหน</h2>
+                        <p>ข้อมูลนี้ช่วยให้เข้าใจว่าอะไรอยู่ในขอบเขตราคาอ้างอิง และควรวางแผนระยะเวลาก่อสร้างอย่างไร</p>
+                    </div>
+
+                    <div class="breakdown-grid">
+                        <article class="breakdown-card reveal" style="--delay: 0.05s;">
+                            <div class="breakdown-card__header">
+                                <h3>สร้างบ้าน</h3>
+                                <span class="breakdown-time">3–6 เดือน</span>
+                            </div>
+                            <p class="breakdown-card__price">14,000–20,000 บาท/ตร.ม.</p>
+                            <ul class="breakdown-card__scope">
+                                <li>งานโครงสร้างและฐานราก</li>
+                                <li>งานหลังคาและผนัง</li>
+                                <li>งานระบบไฟฟ้าและประปา</li>
+                                <li>งานพื้นและฝ้าเพดาน</li>
+                                <li>งานทาสีและตกแต่งพื้นฐาน</li>
+                            </ul>
+                            <div class="breakdown-card__note">
+                                <span>ราคาขึ้นกับ</span>
+                                <p>เกรดวัสดุ สเปกระบบ และความซับซ้อนของรูปทรงอาคาร</p>
+                            </div>
+                        </article>
+                        <article class="breakdown-card reveal" style="--delay: 0.12s;">
+                            <div class="breakdown-card__header">
+                                <h3>ต่อเติม / รีโนเวท</h3>
+                                <span class="breakdown-time">4–12 สัปดาห์</span>
+                            </div>
+                            <p class="breakdown-card__price">8,000–18,000 บาท/ตร.ม.</p>
+                            <ul class="breakdown-card__scope">
+                                <li>งานรื้อถอนและเตรียมพื้นที่</li>
+                                <li>งานโครงสร้างส่วนต่อเติม</li>
+                                <li>งานหลังคาหรือผนังใหม่</li>
+                                <li>งานระบบที่จำเป็นตามขอบเขต</li>
+                                <li>งานตกแต่งตามที่ตกลงกัน</li>
+                            </ul>
+                            <div class="breakdown-card__note">
+                                <span>ราคาขึ้นกับ</span>
+                                <p>งานรื้อถอนเดิม ขนาดพื้นที่ต่อเติม และสเปกวัสดุ</p>
+                            </div>
+                        </article>
+                        <article class="breakdown-card reveal" style="--delay: 0.19s;">
+                            <div class="breakdown-card__header">
+                                <h3>งานทั่วไป</h3>
+                                <span class="breakdown-time">1–4 สัปดาห์</span>
+                            </div>
+                            <p class="breakdown-card__price">ราคาเริ่มต้นตามประเภทงาน</p>
+                            <ul class="breakdown-card__scope">
+                                <li>เทพื้นคอนกรีต / ลานจอดรถ</li>
+                                <li>งานสระว่ายน้ำพร้อมระบบ</li>
+                                <li>หลังคากันสาดและโรงจอดรถ</li>
+                                <li>งานซ่อมแซมและบำรุงรักษา</li>
+                                <li>งานพิเศษอื่น ๆ ตามสอบถาม</li>
+                            </ul>
+                            <div class="breakdown-card__note">
+                                <span>ราคาขึ้นกับ</span>
+                                <p>ขนาดพื้นที่ วัสดุ และความซับซ้อนของหน้างานจริง</p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="breakdown-guarantee reveal" style="--delay: 0.26s;">
+                        <div class="breakdown-guarantee__item">
+                            <strong>รับประกันงาน 5 ปี</strong>
+                            <p>งานโครงสร้างและงานกันซึมรับประกัน 5 ปีนับจากวันส่งมอบ หากพบปัญหาจากฝีมือช่างหรือวัสดุ ทีมงานเข้าแก้ไขโดยไม่มีค่าใช้จ่ายเพิ่ม</p>
+                        </div>
+                        <div class="breakdown-guarantee__item">
+                            <strong>การชำระเงิน</strong>
+                            <p>แบ่งชำระตามความคืบหน้าของงาน โดยทั่วไปแบ่งเป็น 5–10 งวดตามขั้นตอนที่ตกลงกันก่อนเริ่มงาน</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section faq" id="faq">
+                <div class="container">
+                    <div class="section-heading reveal">
+                        <p class="eyebrow">คำถามที่พบบ่อย</p>
+                        <h2>คำถามที่ลูกค้ามักสงสัยก่อนขอประเมินจริง</h2>
+                        <p>ส่วนนี้ช่วยตอบคำถามพื้นฐานที่มักเกิดขึ้นก่อนเริ่มคุยรายละเอียดจริง เพื่อให้ใช้หน้าราคาได้อย่างเข้าใจมากขึ้น</p>
+                    </div>
+
+                    <div class="faq-grid">
+                        <details class="faq-item reveal" style="--delay: 0.05s;">
+                            <summary>ทำไมราคาของงานประเภทเดียวกันถึงเป็นช่วงกว้าง</summary>
+                            <p>เพราะราคาขึ้นอยู่กับขนาดพื้นที่ สเปกวัสดุ งานระบบ ระดับงานตกแต่ง และข้อจำกัดของหน้างานจริง แม้จะเป็นงานประเภทเดียวกันก็อาจใช้งบต่างกันมากได้</p>
+                        </details>
+                        <details class="faq-item reveal" style="--delay: 0.1s;">
+                            <summary>ถ้ามีงบประมาณคร่าว ๆ อยู่แล้ว ควรเริ่มยังไง</summary>
+                            <p>ให้เริ่มจากเลือกหมวดงานที่ใกล้กับเป้าหมายที่สุด แล้วแจ้งงบประมาณพร้อมขนาดพื้นที่หรือรูปหน้างาน เพื่อให้ทีมงานช่วยดูว่าควรลดหรือเพิ่มสเปกส่วนไหนได้บ้าง</p>
+                        </details>
+                        <details class="faq-item reveal" style="--delay: 0.15s;">
+                            <summary>ต้องดูหน้างานทุกครั้งหรือไม่</summary>
+                            <p>ไม่จำเป็นทุกงาน หากข้อมูลเบื้องต้นชัดพออาจเริ่มประเมินในระดับคร่าว ๆ ได้ก่อน แต่ถ้างานมีรายละเอียดเฉพาะหรือเงื่อนไขพื้นที่ซับซ้อน การดูหน้างานจะช่วยให้ราคาแม่นขึ้น</p>
+                        </details>
+                        <details class="faq-item reveal" style="--delay: 0.2s;">
+                            <summary>งานที่ระบุว่าสอบถามราคา หมายถึงอะไร</summary>
+                            <p>หมายถึงเป็นงานที่ขอบเขตและรูปแบบไม่ตายตัว เช่น งานรีวิวหรือบริการเฉพาะทาง จึงต้องคุยรายละเอียดก่อนว่าต้องทำอะไรบ้าง จึงจะประเมินได้เหมาะสม</p>
+                        </details>
+                        <details class="faq-item reveal" style="--delay: 0.25s;">
+                            <summary>ควรเตรียมข้อมูลอะไรเพื่อให้ประเมินได้เร็ว</summary>
+                            <p>อย่างน้อยควรมีประเภทงาน ขนาดพื้นที่โดยประมาณ รูปหน้างาน หรือแบบร่างเบื้องต้น ถ้ามีงบประมาณเป้าหมายอยู่แล้วควรแจ้งมาด้วยเพื่อให้ช่วยจัดระดับงานได้เร็วขึ้น</p>
+                        </details>
+                        <details class="faq-item reveal" style="--delay: 0.3s;">
+                            <summary>หลังจากส่งข้อมูลแล้ว จะได้ราคาอย่างเป็นทางการเมื่อไร</summary>
+                            <p>ขึ้นอยู่กับความชัดเจนของข้อมูลและความซับซ้อนของงาน หากข้อมูลครบและขอบเขตชัด การสรุปราคาอย่างเป็นทางการจะทำได้เร็วขึ้นกว่างานที่ต้องนัดดูหน้างานหลายรอบ</p>
+                        </details>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section gallery" id="gallery" data-section>
+                <div class="container">
+                    <div class="section-heading reveal">
+                        <p class="eyebrow">ตัวอย่างงาน</p>
+                        <h2>ดูภาพงานจริงประกอบการอ่านราคา</h2>
+                        <p>รูปด้านล่างช่วยให้ลูกค้าเชื่อมโยงช่วงราคากับลักษณะงานจริงได้ง่ายขึ้น เหมือนการแนบภาพประกอบในเอกสารราคา</p>
+                    </div>
+
+                    <div class="gallery-grid">
+                        <article class="gallery-card reveal" style="--delay: 0.05s;">
+                            <img src="assets/images/build/showcase-house.jpg" alt="ตัวอย่างผลงานสร้างบ้าน" loading="lazy" />
+                            <div class="gallery-card__content">
+                                <span>สร้างบ้าน</span>
+                                <h3>ภาพรวมงานบ้านใหม่</h3>
+                                <p>เหมาะสำหรับดูประกอบหมวดสร้างบ้าน เพื่อเห็นภาพรวมของสเกลงานและรูปแบบบ้าน</p>
+                            </div>
+                        </article>
+
+                        <article class="gallery-card reveal" style="--delay: 0.12s;">
+                            <img src="assets/images/renovate/showcase-renovation.jpg" alt="ตัวอย่างผลงานต่อเติมและรีโนเวท" loading="lazy" />
+                            <div class="gallery-card__content">
+                                <span>ต่อเติม / รีโนเวท</span>
+                                <h3>ภาพรวมงานต่อเติมและปรับปรุงบ้าน</h3>
+                                <p>ช่วยให้เห็นงานขยายพื้นที่และการปรับบ้านเดิม ก่อนนำไปเทียบกับช่วงราคาที่แสดงไว้</p>
+                            </div>
+                        </article>
+
+                        <article class="gallery-card reveal" style="--delay: 0.19s;">
+                            <img src="assets/images/general/showcase-general.png" alt="ตัวอย่างผลงานงานทั่วไป" loading="lazy" />
+                            <div class="gallery-card__content">
+                                <span>งานทั่วไป</span>
+                                <h3>ภาพรวมงานพื้นและงานเฉพาะทาง</h3>
+                                <p>เหมาะสำหรับใช้ดูบริบทของงานทั่วไปที่มีทั้งราคาเริ่มต้นและงานที่ต้องประเมินเพิ่มเติม</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section trust" id="trust" data-section>
+                <div class="container">
+                    <div class="trust-stats reveal">
+                        <div class="stat-item">
+                            <strong>10+</strong>
+                            <span>ปีประสบการณ์</span>
+                        </div>
+                        <div class="stat-item">
+                            <strong>50+</strong>
+                            <span>โครงการที่ผ่านมา</span>
+                        </div>
+                        <div class="stat-item">
+                            <strong>เพชรบุรี & ใกล้เคียง</strong>
+                            <span>พื้นที่ให้บริการ</span>
+                        </div>
+                        <div class="stat-item">
+                            <strong>รับประกัน 5 ปี</strong>
+                            <span>งานโครงสร้างและงานกันซึม</span>
+                        </div>
+                    </div>
+
+                    <div class="section-heading reveal" style="--delay: 0.08s;">
+                        <p class="eyebrow">เสียงจากลูกค้า</p>
+                        <h2>ลูกค้าที่ผ่านมาพูดถึงเราว่าอย่างไร</h2>
+                        <p>ความเห็นจากลูกค้าจริงที่เคยจ้างงานสร้างบ้าน ต่อเติม และรีโนเวท</p>
+                    </div>
+
+                    <div class="testimonial-grid">
+                        <article class="testimonial-card reveal" style="--delay: 0.06s;">
+                            <blockquote>
+                                &ldquo;ต่อเติมห้องครัวเสร็จตามเวลา ราคาตรงตามที่คุยกัน ทีมงานทำงานสะอาดและไม่ต้องคอยดูแลมาก ผลงานออกมาดีกว่าที่คาดไว้&rdquo;
+                            </blockquote>
+                            <footer class="testimonial-card__footer">
+                                <div class="testimonial-card__avatar" aria-hidden="true">ส</div>
+                                <div>
+                                    <strong>คุณสมศรี ป.</strong>
+                                    <span>ต่อเติมห้องครัว · ชะอำ</span>
+                                </div>
+                            </footer>
+                        </article>
+                        <article class="testimonial-card reveal" style="--delay: 0.14s;">
+                            <blockquote>
+                                &ldquo;จ้างสร้างบ้านใหม่ ทีมอธิบายขั้นตอนและวัสดุชัดเจน ราคาในเว็บใกล้เคียงราคาจริงมาก ช่วยให้วางงบได้ดีก่อนเริ่มคุยจริง&rdquo;
+                            </blockquote>
+                            <footer class="testimonial-card__footer">
+                                <div class="testimonial-card__avatar" aria-hidden="true">ว</div>
+                                <div>
+                                    <strong>คุณวิชัย ร.</strong>
+                                    <span>สร้างบ้านทรงโมเดิร์น · หัวหิน</span>
+                                </div>
+                            </footer>
+                        </article>
+                        <article class="testimonial-card reveal" style="--delay: 0.22s;">
+                            <blockquote>
+                                &ldquo;รีโนเวทบ้านทั้งหลัง ทีมงานให้คำแนะนำดี ช่วยประหยัดงบในบางจุดโดยไม่กระทบคุณภาพ ประทับใจในความใส่ใจรายละเอียดของทีม&rdquo;
+                            </blockquote>
+                            <footer class="testimonial-card__footer">
+                                <div class="testimonial-card__avatar" aria-hidden="true">น</div>
+                                <div>
+                                    <strong>คุณนภา ก.</strong>
+                                    <span>รีโนเวทบ้านทั้งหลัง · เพชรบุรี</span>
+                                </div>
+                            </footer>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section notes" id="notes" data-section>
+                <div class="container notes__grid">
+                    <div class="section-heading reveal">
+                        <p class="eyebrow">หมายเหตุ</p>
+                        <h2>สิ่งที่ควรรู้ก่อนใช้ราคาหน้านี้ประกอบการตัดสินใจ</h2>
+                        <p>ข้อมูลทั้งหมดในหน้านี้เป็นราคาอ้างอิงเบื้องต้น ใช้เพื่อช่วยให้เห็นภาพรวมและเตรียมงบก่อนพูดคุยรายละเอียดเพิ่มเติมกับทีมงาน</p>
+                    </div>
+
+                    <div class="notes-list">
+                        <article class="note-card reveal" style="--delay: 0.05s;">
+                            <h3>ราคาอ้างอิง ไม่ใช่ใบเสนอราคาสุดท้าย</h3>
+                            <p>ราคาจริงอาจเปลี่ยนตามขนาดพื้นที่ สเปกวัสดุ งานระบบ และสภาพหน้างานจริง</p>
+                        </article>
+                        <article class="note-card reveal" style="--delay: 0.12s;">
+                            <h3>งานที่ระบุว่าสอบถามราคา</h3>
+                            <p>หมายถึงเป็นงานที่ขอบเขตไม่ตายตัว ต้องคุยรายละเอียดก่อนจึงจะประเมินราคาได้เหมาะสม</p>
+                        </article>
+                        <article class="note-card reveal" style="--delay: 0.19s;">
+                            <h3>วิธีใช้ให้ได้ผลที่สุด</h3>
+                            <p>ให้ใช้หน้าเว็บนี้เป็นแหล่งรวมข้อมูลราคาเบื้องต้น แล้วค่อยนำข้อมูลประเภทงาน ขนาดพื้นที่ และรูปหน้างานมาคุยต่อเพื่อประเมินจริง</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section contact" id="contact" data-section>
+                <div class="container contact__panel reveal">
+                    <div class="contact__copy">
+                        <p class="eyebrow">ติดต่อสอบถามเพิ่มเติม</p>
+                        <h2>หากสนใจช่วงราคาไหน สามารถติดต่อทีมงานเพื่อประเมินจากหน้างานจริงได้</h2>
+                        <p>เมื่ออ่านข้อมูลในหน้านี้แล้ว หากต้องการให้ช่วยประเมินต่อ เพียงแจ้งประเภทงาน พื้นที่คร่าว ๆ และรูปหน้างานที่มีอยู่ ทีมงานจะช่วยดูรายละเอียดให้ต่อได้ง่ายขึ้น</p>
+                    </div>
+
+                    <div class="message-box">
+                        <div class="message-box__header">
+                            <span>ข้อมูลที่ควรเตรียมก่อนติดต่อ</span>
+                        </div>
+                        <div class="message-box__content message-box__content--guide">
+                            <ul>
+                                <li>ประเภทงานที่สนใจ เช่น สร้างบ้าน ต่อเติม รีโนเวท หรือ งานทั่วไป</li>
+                                <li>ขนาดพื้นที่หรือขนาดโครงการโดยประมาณ</li>
+                                <li>รูปหน้างานหรือแบบบ้าน ถ้ามี</li>
+                                <li>งบประมาณคร่าว ๆ ที่ต้องการคุมไว้</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <p class="contact__alt-label">หรือติดต่อโดยตรง</p>
+                    <div class="contact__actions">
+                        <a class="button button--primary" href="tel:0909452224">โทร 090-945-2224</a>
+                        <a class="button button--secondary" href="https://www.facebook.com/profile.php?id=100066677683716" target="_blank" rel="noreferrer">ติดต่อผ่าน Facebook</a>
+                        <a class="button button--ghost" href="mailto:keriyngkir2224@gmail.com">ส่งอีเมล</a>
+                    </div>
+
+                    <div class="contact__meta">
+                        <article>
+                            <span>โทรศัพท์</span>
+                            <strong>090-945-2224</strong>
+                        </article>
+                        <article>
+                            <span>อีเมล</span>
+                            <strong>keriyngkir2224@gmail.com</strong>
+                        </article>
+                        <article>
+                            <span>ที่อยู่</span>
+                            <strong>240/3 หมู่ที่1 ต.เขาใหญ่ อ.ชะอำ จ.เพชรบุรี 76120</strong>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container footer__inner">
+                <a class="text-link" href="#top">กลับขึ้นด้านบน</a>
+                <span>&copy; <span data-current-year>2026</span> เกรียงไกร การช่าง. สงวนลิขสิทธิ์.</span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
